@@ -1,0 +1,14 @@
+<!-- Variables and Filters -->
+
+<h1>Hello {{ firstname | upper }} {{ lastname }}, how are you?</h1>
+
+
+<!-- Tags -->
+{% if gender == "Male" %}
+  Welcome Sir!!
+{% else %}
+  Welcome Madam!!
+{% endif %}
+
+
+{% include 'footer.html' %}
